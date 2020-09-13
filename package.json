@@ -1,0 +1,27 @@
+{
+  "name": "ckcsc33rd-v.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckcsc-tp/ckcsc33rd-v.2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckcsc-tp/ckcsc33rd-v.2/issues"
+  },
+  "homepage": "https://github.com/ckcsc-tp/ckcsc33rd-v.2#readme"
+}
