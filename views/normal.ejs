@@ -1,0 +1,85 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="TGoC_Charlie and Bootstrap">
+    <title>成功電研社-一般社課</title>
+
+    <!-- Bootstrap core CSS -->
+    <%- include('./model/head.ejs') %>
+
+    <style>
+        #ahover:hover {
+            color: #007bff;
+        }
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+</head>
+<body>
+    <%- include('./model/header.ejs') %>
+
+<main role="main">
+    <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+            <h1 class="featurette-heading col-12"
+                style="text-align: center;margin-top: 50px;padding-bottom: 50px;font-weight: bold">一般社課</h1>
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                     src="../assets/css/images/c++.png" /img>
+                <h2>C++語法班</h2>
+                <p>C++語法班適合完全0基礎的人或是只有基本概念的人，會從最基本語法，如輸出輸入開始教起，一步一步帶你走上電神之路。預計於這學期末教完基本語法與基本資料結構、少量演算法。</p>
+                <p><a class="btn btn-lg btn-primary" href="/cpp1" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                     src="../assets/css/images/c++.png" /img>
+                <h2>C++算法班</h2>
+                <p>在這學期的C++算法班社課中，我們會介紹各種神奇(?)競賽常見的演算法，如果你想在高中的資訊競賽贏得佳績，豐富你的學習歷程檔案，C++算法班會給你最好的入門，走過路過不要錯過!</p>
+                <p><a class="btn btn-lg btn-primary" href="/cpp2" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+                <img class="bd-placeholder-img rounded-circle" width="140" height="140"
+                     src="../assets/css/images/java.png" /img>
+                <h2>Java基礎班</h2>
+                <p>Java跨平台的特性使得各種地方都能見到它的影子，從APP、網頁到遊戲等
+                    而在這門課中，我們將從Java的基礎開始教學，不斷進階，從基本的輸出輸入到物件導向，讓你好好了解Java作為物件導向語言的特色!</p>
+                <p><a class="btn btn-lg btn-primary" href="/java" role="button">View details &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+        </div><!-- /.row -->
+
+
+        <!-- START THE FEATURETTES -->
+
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <%- include('./model/footer.ejs') %>
+</main>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+</html>
