@@ -1,4 +1,4 @@
-const {google} = require('googleapis');
+const { google } = require('googleapis');
 const keys = require('./keys.json');
 const ejs = require('ejs');
 const express = require('express');
@@ -14,7 +14,7 @@ app.use('/model', express.static(path.join(__dirname, 'model')));
 
 
 app.get('/', (req, res) => {
-   res.render('home');
+    res.render('home');
 });
 app.get('/class', (req, res) => {
     res.render('class');
@@ -38,9 +38,9 @@ const client = new google.auth.JWT(
 );
 
 
-client.authorize(function (err,tokens){
+client.authorize(function (err, tokens) {
 
-    if(err){
+    if (err) {
         console.log(err);
         return;
     } else {
@@ -50,18 +50,18 @@ client.authorize(function (err,tokens){
 });
 
 
-async function gsrun(cl){
-    const gsapi = google.sheets({version:'v4',auth: cl});
+async function gsrun(cl) {
+    const gsapi = google.sheets({ version: 'v4', auth: cl });
     const optcpp1 = {
         spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
         range: 'cpp1!A2:D17'
     };
 
 
-    app.get('/cpp1',async function (req, res) {
+    app.get('/cpp1', async function (req, res) {
         let data = await gsapi.spreadsheets.values.get(optcpp1);
         let dataArray = data.data.values;
-        res.render('cpp1',{data: dataArray});
+        res.render('cpp1', { data: dataArray });
     });
 
     const optcpp2 = {
@@ -70,10 +70,10 @@ async function gsrun(cl){
     };
 
 
-    app.get('/cpp2',async function (req, res) {
+    app.get('/cpp2', async function (req, res) {
         let data = await gsapi.spreadsheets.values.get(optcpp2);
         let dataArray = data.data.values;
-        res.render('cpp2',{data: dataArray});
+        res.render('cpp2', { data: dataArray });
     });
 
     const optjava = {
@@ -82,10 +82,22 @@ async function gsrun(cl){
     };
 
 
-    app.get('/java',async function (req, res) {
+    app.get('/java', async function (req, res) {
         let data = await gsapi.spreadsheets.values.get(optjava);
         let dataArray = data.data.values;
-        res.render('java',{data: dataArray});
+        res.render('java', { data: dataArray });
+    });
+
+    const optweb = {
+        spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
+        range: 'web!A2:C13'
+    };
+
+
+    app.get('/web', async function (req, res) {
+        let data = await gsapi.spreadsheets.values.get(optweb);
+        let dataArray = data.data.values;
+        res.render('web', { data: dataArray });
     });
 };
 

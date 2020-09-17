@@ -1,4 +1,5 @@
 <!doctype html>
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -39,138 +40,140 @@
     </style>
     <!-- Custom styles for this template -->
 </head>
+
 <body>
     <%- include('./model/header.ejs') %>
 
-<main role="main" style="margin-top:20px;">
-    <h2 style="margin-top: 20px;float: left;width: 100%;">Java基礎班</h2>
-    <table class="table table-striped" style="text-align: center">
-        <thead >
-        <tr>
-            <th style="text-align: center">日期</th>
-            <th style="text-align: center">課程內容</th>
-            <th style="text-align: center">講義連結</th>
-            <th style="text-align: center">練習題</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td><%= data[0][0] %></td>
-            <td><%= data[0][1] %></td>
-            <td><a target="_blank" href="<%= data[0][2] %>"><%= data[0][2] %></a></td>
-            <td><a target="_blank" href="<%= data[0][3] %>"><%= data[0][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[1][0] %></td>
-            <td><%= data[1][1] %></td>
-            <td><a target="_blank" href="<%= data[1][2] %>"><%= data[1][2] %></a></td>
-            <td><a target="_blank" href="<%= data[1][3] %>"><%= data[1][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[2][0] %></td>
-            <td><%= data[2][1] %></td>
-            <td><a target="_blank" href="<%= data[2][2] %>"><%= data[2][2] %></a></td>
-            <td><a target="_blank" href="<%= data[2][3] %>"><%= data[2][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[3][0] %></td>
-            <td><%= data[3][1] %></td>
-            <td><a target="_blank" href="<%= data[3][2] %>"><%= data[3][2] %></a></td>
-            <td><a target="_blank" href="<%= data[3][3] %>"><%= data[3][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[4][0] %></td>
-            <td><%= data[4][1] %></td>
-            <td><a target="_blank" href="<%= data[4][2] %>"><%= data[4][2] %></a></td>
-            <td><a target="_blank" href="<%= data[4][3] %>"><%= data[4][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[5][0] %></td>
-            <td><%= data[5][1] %></td>
-            <td><a target="_blank" href="<%= data[5][2] %>"><%= data[5][2] %></a></td>
-            <td><a target="_blank" href="<%= data[5][3] %>"><%= data[5][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[6][0] %></td>
-            <td><%= data[6][1] %></td>
-            <td><a target="_blank" href="<%= data[6][2] %>"><%= data[6][2] %></a></td>
-            <td><a target="_blank" href="<%= data[6][3] %>"><%= data[6][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[7][0] %></td>
-            <td><%= data[7][1] %></td>
-            <td><a target="_blank" href="<%= data[7][2] %>"><%= data[7][2] %></a></td>
-            <td><a target="_blank" href="<%= data[7][3] %>"><%= data[7][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[8][0] %></td>
-            <td><%= data[8][1] %></td>
-            <td><a target="_blank" href="<%= data[8][2] %>"><%= data[8][2] %></a></td>
-            <td><a target="_blank" href="<%= data[8][3] %>"><%= data[8][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[9][0] %></td>
-            <td><%= data[9][1] %></td>
-            <td><a target="_blank" href="<%= data[9][2] %>"><%= data[9][2] %></a></td>
-            <td><a target="_blank" href="<%= data[9][3] %>"><%= data[9][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[10][0] %></td>
-            <td><%= data[10][1] %></td>
-            <td><a target="_blank" href="<%= data[10][2] %>"><%= data[10][2] %></a></td>
-            <td><a target="_blank" href="<%= data[10][3] %>"><%= data[10][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[11][0] %></td>
-            <td><%= data[11][1] %></td>
-            <td><a target="_blank" href="<%= data[11][2] %>"><%= data[11][2] %></a></td>
-            <td><a target="_blank" href="<%= data[11][3] %>"><%= data[11][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[12][0] %></td>
-            <td><%= data[12][1] %></td>
-            <td><a target="_blank" href="<%= data[12][2] %>"><%= data[12][2] %></a></td>
-            <td><a target="_blank" href="<%= data[12][3] %>"><%= data[12][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[13][0] %></td>
-            <td><%= data[13][1] %></td>
-            <td><a target="_blank" href="<%= data[13][2] %>"><%= data[13][2] %></a></td>
-            <td><a target="_blank" href="<%= data[13][3] %>"><%= data[13][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[14][0] %></td>
-            <td><%= data[14][1] %></td>
-            <td><a target="_blank" href="<%= data[14][2] %>"><%= data[14][2] %></a></td>
-            <td><a target="_blank" href="<%= data[14][3] %>"><%= data[14][3] %></a></td>
-        </tr>
-        <tr>
-            <td><%= data[15][0] %></td>
-            <td><%= data[15][1] %></td>
-            <td><a target="_blank" href="<%= data[15][2] %>"><%= data[15][2] %></a></td>
-            <td><a target="_blank" href="<%= data[15][3] %>"><%= data[15][3] %></a></td>
-        </tr>
-        </tbody>
-    </table>
+    <main role="main" style="margin-top:20px;">
+        <h2 style="margin-top: 20px;float: left;width: 100%;">Java基礎班</h2>
+        <table class="table table-striped" style="text-align: center">
+            <thead>
+                <tr>
+                    <th style="text-align: center">日期</th>
+                    <th style="text-align: center">課程內容</th>
+                    <th style="text-align: center">講義連結</th>
+                    <th style="text-align: center">練習題</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><%= data[0][0] %></td>
+                    <td><%= data[0][1] %></td>
+                    <td><a target="_blank" href="<%= data[0][2] %>"><%= data[0][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[0][3] %>"><%= data[0][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[1][0] %></td>
+                    <td><%= data[1][1] %></td>
+                    <td><a target="_blank" href="<%= data[1][2] %>"><%= data[1][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[1][3] %>"><%= data[1][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[2][0] %></td>
+                    <td><%= data[2][1] %></td>
+                    <td><a target="_blank" href="<%= data[2][2] %>"><%= data[2][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[2][3] %>"><%= data[2][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[3][0] %></td>
+                    <td><%= data[3][1] %></td>
+                    <td><a target="_blank" href="<%= data[3][2] %>"><%= data[3][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[3][3] %>"><%= data[3][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[4][0] %></td>
+                    <td><%= data[4][1] %></td>
+                    <td><a target="_blank" href="<%= data[4][2] %>"><%= data[4][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[4][3] %>"><%= data[4][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[5][0] %></td>
+                    <td><%= data[5][1] %></td>
+                    <td><a target="_blank" href="<%= data[5][2] %>"><%= data[5][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[5][3] %>"><%= data[5][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[6][0] %></td>
+                    <td><%= data[6][1] %></td>
+                    <td><a target="_blank" href="<%= data[6][2] %>"><%= data[6][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[6][3] %>"><%= data[6][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[7][0] %></td>
+                    <td><%= data[7][1] %></td>
+                    <td><a target="_blank" href="<%= data[7][2] %>"><%= data[7][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[7][3] %>"><%= data[7][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[8][0] %></td>
+                    <td><%= data[8][1] %></td>
+                    <td><a target="_blank" href="<%= data[8][2] %>"><%= data[8][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[8][3] %>"><%= data[8][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[9][0] %></td>
+                    <td><%= data[9][1] %></td>
+                    <td><a target="_blank" href="<%= data[9][2] %>"><%= data[9][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[9][3] %>"><%= data[9][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[10][0] %></td>
+                    <td><%= data[10][1] %></td>
+                    <td><a target="_blank" href="<%= data[10][2] %>"><%= data[10][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[10][3] %>"><%= data[10][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[11][0] %></td>
+                    <td><%= data[11][1] %></td>
+                    <td><a target="_blank" href="<%= data[11][2] %>"><%= data[11][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[11][3] %>"><%= data[11][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[12][0] %></td>
+                    <td><%= data[12][1] %></td>
+                    <td><a target="_blank" href="<%= data[12][2] %>"><%= data[12][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[12][3] %>"><%= data[12][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[13][0] %></td>
+                    <td><%= data[13][1] %></td>
+                    <td><a target="_blank" href="<%= data[13][2] %>"><%= data[13][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[13][3] %>"><%= data[13][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[14][0] %></td>
+                    <td><%= data[14][1] %></td>
+                    <td><a target="_blank" href="<%= data[14][2] %>"><%= data[14][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[14][3] %>"><%= data[14][3] %></a></td>
+                </tr>
+                <tr>
+                    <td><%= data[15][0] %></td>
+                    <td><%= data[15][1] %></td>
+                    <td><a target="_blank" href="<%= data[15][2] %>"><%= data[15][2] %></a></td>
+                    <td><a target="_blank" href="<%= data[15][3] %>"><%= data[15][3] %></a></td>
+                </tr>
+            </tbody>
+        </table>
 
 
-    <!-- START THE FEATURETTES -->
+        <!-- START THE FEATURETTES -->
 
 
-    <hr class="featurette-divider">
+        <hr class="featurette-divider">
 
-    <!-- /END THE FEATURETTES -->
+        <!-- /END THE FEATURETTES -->
 
-    </div><!-- /.container -->
+        </div><!-- /.container -->
 
 
-    <!-- FOOTER -->
-    <%- include('./model/footer.ejs') %>
-</main>
+        <!-- FOOTER -->
+        <%- include('./model/footer.ejs') %>
+    </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
 </html>
