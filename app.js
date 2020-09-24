@@ -99,6 +99,18 @@ async function gsrun(cl) {
         let dataArray = data.data.values;
         res.render('web', { data: dataArray });
     });
+
+    const optpython = {
+        spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
+        range: 'python!A2:C13'
+    };
+
+
+    app.get('/python', async function (req, res) {
+        let data = await gsapi.spreadsheets.values.get(optpython);
+        let dataArray = data.data.values;
+        res.render('python', { data: dataArray });
+    });
 };
 
 
