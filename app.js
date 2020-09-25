@@ -13,9 +13,7 @@ app.use('/model', express.static(path.join(__dirname, 'model')));
 
 
 
-app.get('/', (req, res) => {
-    res.render('home');
-});
+
 app.get('/class', (req, res) => {
     res.render('class');
 });
@@ -52,6 +50,20 @@ client.authorize(function (err, tokens) {
 
 async function gsrun(cl) {
     const gsapi = google.sheets({ version: 'v4', auth: cl });
+
+
+    const opthome = {
+        spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
+        range: 'home!A2:A2'
+    };
+
+
+    app.get('/', async function (req, res) {
+        let data = await gsapi.spreadsheets.values.get(opthome);
+        let dataArray = data.data.values;
+        res.render('home', { data: dataArray });
+    });
+
     const optcpp1 = {
         spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
         range: 'cpp1!A2:J17'

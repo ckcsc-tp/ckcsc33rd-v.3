@@ -41,7 +41,7 @@
   <main role="main">
 
     <div class="container" style="width: 100%;padding: 20px 0;">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 0;">
         <!-- Indicators -->
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -53,7 +53,7 @@
         <div class="carousel-inner">
 
           <div class="item active">
-            <img src="../assets/css/images/banner6.png"style="width:100%;">
+            <img src="../assets/css/images/banner6.png" style="width:100%;">
           </div>
 
           <div class="item">
@@ -76,8 +76,10 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
+      <marquee direction="left" ; height="50px" ; scrollamount="5"
+        style="background-color: black;color: white;font-size: xx-large;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;" >
+        <%= data[0][0] %></marquee>
     </div>
-
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
