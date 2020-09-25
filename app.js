@@ -90,7 +90,7 @@ async function gsrun(cl) {
 
     const optweb = {
         spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
-        range: 'web!A2:C13'
+        range: 'web!A2:D13'
     };
 
 
@@ -102,7 +102,7 @@ async function gsrun(cl) {
 
     const optpython = {
         spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
-        range: 'python!A2:C13'
+        range: 'python!A2:D13'
     };
 
 
