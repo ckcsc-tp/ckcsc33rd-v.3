@@ -54,7 +54,7 @@ async function gsrun(cl) {
     const gsapi = google.sheets({ version: 'v4', auth: cl });
     const optcpp1 = {
         spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
-        range: 'cpp1!A2:D17'
+        range: 'cpp1!A2:J17'
     };
 
 
@@ -66,7 +66,7 @@ async function gsrun(cl) {
 
     const optcpp2 = {
         spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
-        range: 'cpp2!A2:D17'
+        range: 'cpp2!A2:J17'
     };
 
 
@@ -78,7 +78,7 @@ async function gsrun(cl) {
 
     const optjava = {
         spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
-        range: 'java!A2:D17'
+        range: 'java!A2:J17'
     };
 
 
