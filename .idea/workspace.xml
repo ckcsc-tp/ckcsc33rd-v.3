@@ -36,16 +36,21 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\ckcsc33rd-v.3" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2\views" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2\views\model" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\ckcsc33rd-v.3\assets\css\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -69,6 +74,8 @@
       <workItem from="1598780677355" duration="13421000" />
       <workItem from="1598864792091" duration="237000" />
       <workItem from="1598865851038" duration="2878000" />
+      <workItem from="1603325881388" duration="257000" />
+      <workItem from="1603326158139" duration="990000" />
     </task>
     <servers />
   </component>
@@ -83,10 +90,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/-1600.0.1600.860@0.0.1536.824" timestamp="1598791997770" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598865010058">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="686" y="211" key="FileChooserDialogImpl" timestamp="1603326083314">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598865010058" />
+    <state x="686" y="211" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603326083314" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1598868087332">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
