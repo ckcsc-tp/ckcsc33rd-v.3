@@ -9,6 +9,7 @@ const app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 app.use('/assets', express.static(path.join(__dirname, 'assets')));
+app.use('/csstutorialassets', express.static(path.join(__dirname, 'csstutorialassets')));
 app.use('/model', express.static(path.join(__dirname, 'model')));
 
 
@@ -25,6 +26,9 @@ app.get('/afterschool', (req, res) => {
 });
 app.get('/activities', (req, res) => {
     res.render('activities');
+});
+app.get('/css-tutorial', (req, res) => {
+    res.render('css-tutorial');
 });
 
 

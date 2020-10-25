@@ -2,18 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37d36d-84f5-421d-9d91-3462dd0eae05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/images/class.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/fall.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/winter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/xmas.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/afterschool.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/css/util.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-SemiBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/images/icons/Css.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/images/yt_1200.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/animate/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/select2/select2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/select2/select2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/select2/select2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/select2/select2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/css-tutorial.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/activities.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/activities.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cpp1.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/cpp1.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/cpp2.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/cpp2.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/java.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/java.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +145,7 @@
       <workItem from="1598865851038" duration="2878000" />
       <workItem from="1603325881388" duration="257000" />
       <workItem from="1603326158139" duration="990000" />
+      <workItem from="1603636384853" duration="367000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS tutorial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="/csstutorialassets/images/icons/Css.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/csstutorialassets/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/csstutorialassets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/csstutorialassets/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/csstutorialassets/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/csstutorialassets/vendor/perfect-scrollbar/perfect-scrollbar.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/csstutorialassets/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/csstutorialassets/css/main.css">
+    <!--===============================================================================================-->
+</head>
+
+<body>
+
+    <div class="limiter">
+        <div class="container-table100">
+            <div class="wrap-table100">
+                <div class="table100">
+                    <table>
+                        <thead>
+                            <tr class="table100-head">
+                                <th class="column1">屬性</th>
+                                <th class="column2">數值</th>
+                                <th class="column3">範例</th>
+                                <th class="column4">用途</th>
+                                <th class="column5">難度</th>
+                                <th class="column6">詳細</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="column1">color</td>
+                                <td class="column2">red, rgba(200, 150, 275, 0.5), #2D8A95</td>
+                                <td class="column3">color: red;</td>
+                                <td class="column4">調整文字顏色</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#color">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="color" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">color</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/rchksdp8/38/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">background-color</td>
+                                <td class="column2">red, rgba(200, 150, 275, 0.5), #2D8A95</td>
+                                <td class="column3">background-color: red;</td>
+                                <td class="column4">調整背景顏色</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#bgcolor">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="bgcolor" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">background-color</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/proa2ywf/13/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">height,width</td>
+                                <td class="column2">300px, 200px...</td>
+                                <td class="column3">height: 300px;width:200px</td>
+                                <td class="column4">調整物件的寬高</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#hw">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="hw" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">height,width</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/2zdj3eab/24/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">text-align</td>
+                                <td class="column2">center, left, right</td>
+                                <td class="column3">text-align: center</td>
+                                <td class="column4">水平對齊方式</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#textalign">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="textalign" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">text-align</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/kyj7brhL/2/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">vertical-align</td>
+                                <td class="column2">top, middle, bottom</td>
+                                <td class="column3">vertical-align: middle;</td>
+                                <td class="column4">垂直對齊方式</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#vertical">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="vertical" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">vertical-align</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/17bqfmcx/25/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">text-decoration</td>
+                                <td class="column2">overline, line-through , underline</td>
+                                <td class="column3">text-decoration: line-through</td>
+                                <td class="column4">文字修飾</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#textd">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="textd" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">text-decoration</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/nj0ut23s/6/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">font-family</td>
+                                <td class="column2">Arial,標楷體... </td>
+                                <td class="column3">font-family:標楷體;</td>
+                                <td class="column4">改變字體</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#fontfa">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="fontfa" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">font-family</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="300"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/56tsqfea/9/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">font-style</td>
+                                <td class="column2">normal, italic</td>
+                                <td class="column3">font-style: italic;</td>
+                                <td class="column4">調整斜體</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#fontsty">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="fontsty" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">font-style</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/xy4sz7gj/5/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">font-weight</td>
+                                <td class="column2">normal, bold, 100, 200, ..., 900</td>
+                                <td class="column3">font-weight: bold;</td>
+                                <td class="column4">調整粗體</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#fontw">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="fontw" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">font-weight</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/qwgvn174/8/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">font-size</td>
+                                <td class="column2">20px, 48px, 72px</td>
+                                <td class="column3">font-size: 48px;</td>
+                                <td class="column4">調整字體大小</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#fontsi">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="fontsi" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">font-size</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/hemry9gq/17/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">list-style-type</td>
+                                <td class="column2">circle, square...</td>
+                                <td class="column3">list-style-type: circle;</td>
+                                <td class="column4">項目清單的標頭符號</td>
+                                <td class="column5">0</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#list">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="list" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">list-style-type</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/m58b4v2u/39/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">border-style</td>
+                                <td class="column2">dotted, dashed, solid</td>
+                                <td class="column3">border-style: solid;</td>
+                                <td class="column4">調整框線樣式</td>
+                                <td class="column5">1</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#borders">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="borders" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">border-style</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/er2zugno/6/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">border-color</td>
+                                <td class="column2">red, rgba(200, 150, 275, 0.5), #2D8A95</td>
+                                <td class="column3">border-color: red;</td>
+                                <td class="column4">調整框線顏色</td>
+                                <td class="column5">1</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#borderc">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="borderc" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">border-color</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/rfv98ph1/23/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">border-width</td>
+                                <td class="column2">3px, 5px, 10px, 15px</td>
+                                <td class="column3">border-width: 5px;</td>
+                                <td class="column4">外框寬度</td>
+                                <td class="column5">1</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#borderw">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="borderw" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">border-width</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="400"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/o3ywzek7/18/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+                            <tr>
+                                <td class="column1">border-radius</td>
+                                <td class="column2">3px, 5px, 10px, 15px</td>
+                                <td class="column3">border-radius: 10px;</td>
+                                <td class="column4">調整外框圓滑</td>
+                                <td class="column5">1</td>
+                                <td class="column6">
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#borderr">
+                                        點我看詳細
+                                    </button></td>
+                                <!-- Modal -->
+                                <div class="modal fade bd-example-modal-lg" id="borderr" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">border-radius</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <iframe width="100%" height="300"
+                                                    src="//jsfiddle.net/web_examples_by_TGoC_virus/pyjbqt8x/4/embedded/html,css,result/dark/"
+                                                    allowfullscreen="allowfullscreen" allowpaymentrequest
+                                                    frameborder="0"></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!--===============================================================================================-->
+    <script src="/csstutorialassets/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="/csstutorialassets/vendor/bootstrap/js/popper.js"></script>
+    <script src="/csstutorialassets/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="/csstutorialassets/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="/csstutorialassets/js/main.js"></script>
+
+</body>
+
+</html>
