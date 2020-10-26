@@ -264,7 +264,7 @@ tbody tr:hover {
     content: "用途";
   }
   table tbody tr td:nth-child(5):before {
-    content: "難度";
+    content: "實用性";
   }
   table tbody tr td:nth-child(6):before {
     content: "詳細";
