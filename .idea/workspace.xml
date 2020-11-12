@@ -2,87 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37d36d-84f5-421d-9d91-3462dd0eae05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/css/util.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Regular.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/OpenSans/OpenSans-SemiBoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/fonts/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/images/icons/Css.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/images/yt_1200.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/animate/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/popper.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/perfect-scrollbar/perfect-scrollbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/perfect-scrollbar/perfect-scrollbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/select2/select2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/select2/select2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/select2/select2.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/csstutorialassets/vendor/select2/select2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/css-tutorial.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/CKCSC4K.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/black4K.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nodemon" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nodemon" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nodemon.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nodemon.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/color-name/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/color-name/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/color-name/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/color-name/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/constants.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/fsevents-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/fsevents-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/nodefs-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/nodefs-handler.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/types/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.jscsrc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/.jshintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pupa/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pupa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pupa/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pupa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pupa/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/base64.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/registry-url.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/registry-url.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/test/auth-token.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/test/registry-url.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/term-size/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/check.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/license" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/home.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +132,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -148,6 +179,7 @@
       <workItem from="1603636384853" duration="439000" />
       <workItem from="1605145357441" duration="181000" />
       <workItem from="1605145573371" duration="941000" />
+      <workItem from="1605154422144" duration="3291000" />
     </task>
     <servers />
   </component>

@@ -33,28 +33,60 @@
     }
 
     @keyframes upp {
-      from {
-        padding-top: 1000px;
-      }
-      to {
-        padding-top: 3rem;
-      }
+      0%   {padding-top: 1000px;}
+      50%   {padding-top: 1000px;}
+      100% {padding-top: 0px;}
     }
 
-    body{
+    @keyframes ontop {
+      0%   {opacity: 0;}
+      35%  {opacity: 1;}
+      60%  {opacity: 1.0;}
+      100% {opacity: 0}
+    }
+    @keyframes divtop {
+      0%   {opacity: 1;}
+      90%  {opacity: 1;}
+      100% {opacity: 0;}
+    }
+    
+    @keyframes overflow {
+      0%   {overflow-y: hidden;}
+      99%   {overflow-y: hidden;}
+      100% {overflow-y: auto;}
+    }
+    
+    main{
+      z-index: 40;
       animation-name: upp;
-      animation-duration: 5s;
+      animation-duration: 6s;
     }
 
+    .ontop{
+      z-index: 30;
+      background-color: black;
+      width: 100%;
+      animation-name: ontop;
+      animation-duration: 4s;
+      opacity: 0;
+    }
+    #divtop{
+      z-index: 20;
+      opacity: 0;
+      width: 100%;
+      animation-name: divtop;
+      animation-duration: 6s;
+    }
   </style>
   <!-- Custom styles for this template -->
 
 </head>
 
-<body>
+<body style="animation-name: overflow;animation-duration: 6s">
   <%- include('./model/header.ejs') %>
-  <main role="main">
-
+  <img src="assets/css/images/black4K.png" id="divtop" style="position: absolute" />
+  <img style="position: absolute" class="ontop" src="assets/css/images/CKCSC4K.png" />
+  <main role="main" style="position: relative">
     <div class="container" style="width: 100%;padding: 20px 0;">
       <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 0;">
         <!-- Indicators -->
@@ -149,5 +181,9 @@
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }</script>
 
 </html>
