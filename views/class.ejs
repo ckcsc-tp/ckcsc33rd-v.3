@@ -10,8 +10,6 @@
     <%- include('./model/head.ejs') %>
 
 
-
-
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -57,59 +55,71 @@
             }
 
         }
+
+        @keyframes box {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .box {
+            animation-name: box;
+            animation-duration: 1s;
+        }
     </style>
     <!-- Custom styles for this template -->
 </head>
 
 <body>
-    <%- include('./model/header.ejs') %>
+<%- include('./model/header.ejs') %>
+.
+
+<main role="main">
 
 
-    <main role="main">
-
-
-
-        <!-- Marketing messaging and featurettes
-    ================================================== -->
-        <div class="container marketing" style="margin-top: 10vh;">
-            <div class="row">
-                <div class="boxl">
-                    <div style="text-align: center;">
-                        <h2 style="color: white;font-size: xx-large;font-weight: bold;">一般社課</h2>
-                        <p style="color: white;font-size: large;font-weight: bold;">時間：每週五下午社團聯課活動時間<br>
-                            地點：成功高中求是樓電腦教室<br>
-                            講師團隊：成功電研高二教學群<br>
-                            備註：一定要參加，否則會記曠課</p>
-                        <p><a class="btn btn-lg btn-primary" href="/normal" role="button">Learn more</a></p>
-                    </div>
-                    <img style="width: 80%; height: auto; border-radius: 21px 21px 0 0;margin: 0 10%;"
-                        src="../assets/css/images/class.png">
+    <!-- Marketing messaging and featurettes
+================================================== -->
+    <div class="container marketing" style="margin-top: 10vh;">
+        <div class="row box ">
+            <div class="boxl">
+                <div style="text-align: center;">
+                    <h2 style="color: white;font-size: xx-large;font-weight: bold;">一般社課</h2>
+                    <p style="color: white;font-size: large;font-weight: bold;">時間：每週五下午社團聯課活動時間<br>
+                        地點：成功高中求是樓電腦教室<br>
+                        講師團隊：成功電研高二教學群<br>
+                        備註：一定要參加，否則會記曠課</p>
+                    <p><a class="btn btn-lg btn-primary" href="/normal" role="button">Learn more</a></p>
                 </div>
-                <div class="boxr">
-                    <div style="text-align: center;">
-                        <h2 style="font-size: xx-large;font-weight: bold;">放學社課</h2>
-                        <p style="font-size: large;font-weight: bold;">時間：每週一到五放學後<br>
-                            地點：建國中學電腦教室<br>
-                            講師團隊：建成楓景四校教學群<br>
-                            備註：四校聯合社課，不強迫參加</p>
-                        <p><a class="btn btn-lg btn-primary" href="/afterschool" role="button">Learn more</a></p>
-                    </div>
-                    <img style="width: 80%; height: auto; border-radius: 21px 21px 0 0;margin: 0 10%;"
-                        src="../assets/css/images/afterschool.png">
-                </div>
+                <img style="width: 80%; height: auto; border-radius: 21px 21px 0 0;margin: 0 10%;"
+                     src="../assets/css/images/class.png">
             </div>
-            <hr class="featurette-divider">
+            <div class="boxr">
+                <div style="text-align: center;">
+                    <h2 style="font-size: xx-large;font-weight: bold;">放學社課</h2>
+                    <p style="font-size: large;font-weight: bold;">時間：每週一到五放學後<br>
+                        地點：建國中學電腦教室<br>
+                        講師團隊：建成楓景四校教學群<br>
+                        備註：四校聯合社課，不強迫參加</p>
+                    <p><a class="btn btn-lg btn-primary" href="/afterschool" role="button">Learn more</a></p>
+                </div>
+                <img style="width: 80%; height: auto; border-radius: 21px 21px 0 0;margin: 0 10%;"
+                     src="../assets/css/images/afterschool.png">
+            </div>
         </div>
+        <hr class="featurette-divider">
+    </div>
 
 
-
-        <!-- FOOTER -->
-        <%- include('./model/footer.ejs') %>
-    </main>
+    <!-- FOOTER -->
+    <%- include('./model/footer.ejs') %>
+</main>
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"></script>
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
 <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
 <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 

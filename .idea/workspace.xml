@@ -2,111 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37d36d-84f5-421d-9d91-3462dd0eae05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/images/CKCSC4K.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/css/images/black4K.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nodemon" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nodemon" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nodemon.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nodemon.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/color-name/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/color-name/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/color-name/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/color-name/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/boxen/node_modules/ansi-styles/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/constants.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/constants.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/fsevents-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/fsevents-handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/lib/nodefs-handler.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/lib/nodefs-handler.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/chokidar/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/chokidar/types/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/dot-prop/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/dot-prop/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.jscsrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.jshintrc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/.jshintrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/nodemon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/bin/postinstall.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/commitlint.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/authors.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/config.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/help.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/logo.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/options.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/topics.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/usage.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/doc/cli/whoami.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/cli/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/command.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/defaults.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/exec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/config/load.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/help/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/match.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/run.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/signals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/monitor/watch.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/nodemon.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/add.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/rules/parse.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/spawn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/bus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/clone.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/colour.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/log.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/utils/merge.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/lib/version.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/nodemon/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nodemon/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pupa/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pupa/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pupa/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pupa/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pupa/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pupa/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/readdirp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/readdirp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/base64.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/registry-url.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/registry-auth-token/registry-url.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/test/auth-token.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/registry-auth-token/test/registry-url.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/term-size/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/term-size/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/term-size/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/term-size/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/term-size/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/term-size/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/license" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/license" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/node_modules/ansi-styles/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/update-notifier/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-notifier/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/activities.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/activities.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/class.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/class.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/home.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -143,14 +41,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\ckcsc33rd-v.3\assets\css\images" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Documents\GitHub\ckcsc33rd-v.3" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2\views" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2\views\model" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\ckcsc33rd-v.3\assets\css\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -180,6 +78,9 @@
       <workItem from="1605145357441" duration="181000" />
       <workItem from="1605145573371" duration="941000" />
       <workItem from="1605154422144" duration="3291000" />
+      <workItem from="1605165743854" duration="1203000" />
+      <workItem from="1605169586098" duration="1492000" />
+      <workItem from="1605241037814" duration="2160000" />
     </task>
     <servers />
   </component>
