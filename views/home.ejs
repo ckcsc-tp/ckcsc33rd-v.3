@@ -130,6 +130,46 @@
                 display: none;
             }
         }
+
+        @media (min-width: 1141px) {
+            .ins {
+                white-space: nowrap;
+                font-size: 48px;
+                display: block;
+                color: white;
+                background-color: black;
+                text-align: center;
+                width: 100%;
+                vertical-align: center;
+            }
+        }
+        @media (max-width: 480px) {
+            .ins {
+                white-space: nowrap;
+                font-size: 24px;
+                display: block;
+                color: white;
+                background-color: black;
+                text-align: center;
+                width: 100%;
+                vertical-align: center;
+            }
+        }
+
+        @media (min-width: 481px ;max-width: 1140px) {
+            .ins {
+                white-space: nowrap;
+                font-size: 36px;
+                display: block;
+                color: white;
+                background-color: black;
+                text-align: center;
+                width: 100%;
+                vertical-align: center;
+            }
+        }
+
+        }
     </style>
     <!-- Custom styles for this template -->
 
@@ -141,7 +181,7 @@
 <img style="position: absolute" class="ontop" src="assets/css/images/CKCSC4K.png"/>
 <main role="main" style="position: relative">
     <div class="container" style="width: 100%;padding: 20px 0;">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-bottom: 0;">
+        <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel" style="margin-bottom: 0;">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -176,9 +216,25 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <marquee direction="left" ; height="50px" ; scrollamount="5"
-                 style="background-color: black;color: white;font-size: xx-large;font-weight: bold;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
-            <%= data[0][0] %></marquee>
+        <div id="notCarousel" class="carousel slide" data-ride="carousel"
+             style="margin: 0;height:50px;background-color: black" data-interval="3000">
+            <!-- Indicators -->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                <div class="item active">
+                    <p class="ins"><%= data[1] %></p>
+                </div>
+                <% var i; %>
+                <% for(i = 2;i-1 < data[0];i++){ %>
+                    <div class="item">
+                        <p class="ins"><%= data[i] %></p>
+                    </div>
+                <% } %>
+
+            </div>
+        </div>
     </div>
 
     <!-- Marketing messaging and featurettes

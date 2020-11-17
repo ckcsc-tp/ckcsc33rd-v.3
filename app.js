@@ -58,7 +58,7 @@ async function gsrun(cl) {
 
     const opthome = {
         spreadsheetId: '1Cc9H1GeEhfizYRAWuhUZzS8XGwPV3vLuyK-vl6edThk',
-        range: 'home!A2:A2'
+        range: 'home!A2:A50'
     };
 
 
