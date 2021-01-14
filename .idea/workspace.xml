@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37d36d-84f5-421d-9d91-3462dd0eae05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/home.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/home.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ini/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ini/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ini/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ini/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ini/ini.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ini/ini.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/ini/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/ini/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/class.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/class.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/model/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/model/footer.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\文件\GitHub\ckcsc33rd-v.3" />
       <recent name="C:\Users\User\Documents\GitHub\ckcsc33rd-v.3" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2\views" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2\views\model" />
@@ -85,6 +91,7 @@
       <workItem from="1605539582629" duration="2883000" />
       <workItem from="1605586730655" duration="710000" />
       <workItem from="1605603100076" duration="1051000" />
+      <workItem from="1610610040826" duration="637000" />
     </task>
     <servers />
   </component>
