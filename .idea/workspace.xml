@@ -2,7 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37d36d-84f5-421d-9d91-3462dd0eae05" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/JianFloor.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ambulance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/bossoffice.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cafe.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cafechen.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cctv1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cctv2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cctv3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/elec.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/insurance.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jizz7122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/jquery.rwdImageMaps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mail.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/mailbox.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/map.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/office.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/presentation.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/presentation2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rwd.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/security.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/storage.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/storageshadow.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/tv.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wc13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wc2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wccma.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wcyo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,6 +115,7 @@
       <workItem from="1610610040826" duration="1238000" />
       <workItem from="1611796459042" duration="90000" />
       <workItem from="1611796627411" duration="20000" />
+      <workItem from="1612504846614" duration="146000" />
     </task>
     <servers />
   </component>

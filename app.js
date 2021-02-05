@@ -4,6 +4,7 @@ const ejs = require('ejs');
 const express = require('express');
 const path = require('path');
 const app = express();
+app.use('/images', express.static(path.join(__dirname, 'images')));
 
 
 app.set('views', path.join(__dirname, 'views'));
@@ -20,6 +21,9 @@ app.get('/class', (req, res) => {
 });
 app.get('/normal', (req, res) => {
     res.render('normal');
+});
+app.get('/map', (req, res) => {
+    res.render('map');
 });
 app.get('/afterschool', (req, res) => {
     res.render('afterschool');
