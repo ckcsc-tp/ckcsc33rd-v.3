@@ -34,6 +34,12 @@ app.get('/activities', (req, res) => {
 app.get('/css-tutorial', (req, res) => {
     res.render('css-tutorial');
 });
+app.get('/secnormal', (req, res) => {
+    res.render('secnormal');
+});
+app.get('/secafterschool', (req, res) => {
+    res.render('secafterschool');
+});
 
 
 const client = new google.auth.JWT(
@@ -130,6 +136,64 @@ async function gsrun(cl) {
         let data = await gsapi.spreadsheets.values.get(optpython);
         let dataArray = data.data.values;
         res.render('python', { data: dataArray });
+    });
+
+    const optseccpp = {
+        spreadsheetId: '18iPnwRUtAKua9FOZDl1poRZ5ZifLyIFRs7xPOacADC0',
+        range: 'Algorithm!A2:D13'
+    };
+
+
+    app.get('/seccpp', async function (req, res) {
+        let data = await gsapi.spreadsheets.values.get(optseccpp);
+        let dataArray = data.data.values;
+        res.render('seccpp', { data: dataArray });
+    });
+
+    const optsecpygui = {
+        spreadsheetId: '18iPnwRUtAKua9FOZDl1poRZ5ZifLyIFRs7xPOacADC0',
+        range: 'Python GUI!A2:D13'
+    };
+
+    app.get('/secpygui', async function (req, res) {
+        let data = await gsapi.spreadsheets.values.get(optsecpygui);
+        let dataArray = data.data.values;
+        res.render('secpygui', { data: dataArray });
+    });
+
+    const optsecctf = {
+        spreadsheetId: '18iPnwRUtAKua9FOZDl1poRZ5ZifLyIFRs7xPOacADC0',
+        range: 'CTF!A2:D13'
+    };
+
+    app.get('/secctf', async function (req, res) {
+        let data = await gsapi.spreadsheets.values.get(optsecctf);
+        let dataArray = data.data.values;
+        res.render('secctf', { data: dataArray });
+    });
+
+    const optmedia = {
+        spreadsheetId: '18iPnwRUtAKua9FOZDl1poRZ5ZifLyIFRs7xPOacADC0',
+        range: 'mutimedia!A2:D9'
+    };
+
+
+    app.get('/mutimedia', async function (req, res) {
+        let data = await gsapi.spreadsheets.values.get(optmedia);
+        let dataArray = data.data.values;
+        res.render('mutimedia', { data: dataArray });
+    });
+
+    const optOOP = {
+        spreadsheetId: '18iPnwRUtAKua9FOZDl1poRZ5ZifLyIFRs7xPOacADC0',
+        range: 'OOP!A2:D9'
+    };
+
+
+    app.get('/OOP', async function (req, res) {
+        let data = await gsapi.spreadsheets.values.get(optOOP);
+        let dataArray = data.data.values;
+        res.render('OOP', { data: dataArray });
     });
 };
 

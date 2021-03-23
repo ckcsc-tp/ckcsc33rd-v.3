@@ -1,0 +1,274 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="TGoC_Charlie and Bootstrap">
+    <title>成功電研社-Python GUI</title>
+
+    <!-- Bootstrap core CSS -->
+    <%- include('./model/head.ejs') %>
+
+    <style>
+        #ahover:hover {
+            color: #007bff;
+        }
+
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+
+        }
+
+        @media (max-width: 1210px) {
+            table {
+                display: block;
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+</head>
+
+<body>
+    <%- include('./model/header.ejs') %>
+    <main role="main" style="margin-top:20px ;">
+        <h2 style="margin-top: 20px;float: left;width: 100%;">Python GUI</h2>
+        <table class="table table-striped" style="text-align: center">
+            <thead>
+                <tr>
+                    <th style="text-align: center">日期</th>
+                    <th style="text-align: center">課程內容</th>
+                    <th style="text-align: center">講義連結</th>
+                    <th style="text-align: center">練習題</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="3"><%= data[0][0] %></td>
+                    <td rowspan="3"><%= data[0][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[0][2] %>"><%= data[0][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[0][4] %>"><%= data[0][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[0][6]){ %>
+                        <td><a target="_blank" href="<%= data[0][6] %>"><%= data[0][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[0][8]){ %>
+                        <td><a target="_blank" href="<%= data[0][8] %>"><%= data[0][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[1][0] %></td>
+                    <td rowspan="3"><%= data[1][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[1][2] %>"><%= data[1][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[1][4] %>"><%= data[1][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[1][6]){ %>
+                        <td><a target="_blank" href="<%= data[1][6] %>"><%= data[1][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[1][8]){ %>
+                        <td><a target="_blank" href="<%= data[1][8] %>"><%= data[1][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[2][0] %></td>
+                    <td rowspan="3"><%= data[2][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[2][2] %>"><%= data[2][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[2][4] %>"><%= data[2][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[2][6]){ %>
+                        <td><a target="_blank" href="<%= data[2][6] %>"><%= data[2][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[2][8]){ %>
+                        <td><a target="_blank" href="<%= data[2][8] %>"><%= data[2][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[3][0] %></td>
+                    <td rowspan="3"><%= data[3][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[3][2] %>"><%= data[3][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[3][4] %>"><%= data[3][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[3][6]){ %>
+                        <td><a target="_blank" href="<%= data[3][6] %>"><%= data[3][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[3][8]){ %>
+                        <td><a target="_blank" href="<%= data[3][8] %>"><%= data[3][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[4][0] %></td>
+                    <td rowspan="3"><%= data[4][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[4][2] %>"><%= data[4][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[4][4] %>"><%= data[4][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[4][6]){ %>
+                        <td><a target="_blank" href="<%= data[4][6] %>"><%= data[4][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[4][8]){ %>
+                        <td><a target="_blank" href="<%= data[4][8] %>"><%= data[4][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[5][0] %></td>
+                    <td rowspan="3"><%= data[5][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[5][2] %>"><%= data[5][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[5][4] %>"><%= data[5][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[5][6]){ %>
+                        <td><a target="_blank" href="<%= data[5][6] %>"><%= data[5][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[5][8]){ %>
+                        <td><a target="_blank" href="<%= data[5][8] %>"><%= data[5][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[6][0] %></td>
+                    <td rowspan="3"><%= data[6][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[6][2] %>"><%= data[6][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[6][4] %>"><%= data[6][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[6][6]){ %>
+                        <td><a target="_blank" href="<%= data[6][6] %>"><%= data[6][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[6][8]){ %>
+                        <td><a target="_blank" href="<%= data[6][8] %>"><%= data[6][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[7][0] %></td>
+                    <td rowspan="3"><%= data[7][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[7][2] %>"><%= data[7][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[7][4] %>"><%= data[7][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[7][6]){ %>
+                        <td><a target="_blank" href="<%= data[7][6] %>"><%= data[7][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[7][8]){ %>
+                        <td><a target="_blank" href="<%= data[7][8] %>"><%= data[7][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[8][0] %></td>
+                    <td rowspan="3"><%= data[8][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[8][2] %>"><%= data[8][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[8][4] %>"><%= data[8][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[8][6]){ %>
+                        <td><a target="_blank" href="<%= data[8][6] %>"><%= data[8][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[8][8]){ %>
+                        <td><a target="_blank" href="<%= data[8][8] %>"><%= data[8][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[9][0] %></td>
+                    <td rowspan="3"><%= data[9][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[9][2] %>"><%= data[9][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[9][4] %>"><%= data[9][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[9][6]){ %>
+                        <td><a target="_blank" href="<%= data[9][6] %>"><%= data[9][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[9][8]){ %>
+                        <td><a target="_blank" href="<%= data[9][8] %>"><%= data[9][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[10][0] %></td>
+                    <td rowspan="3"><%= data[10][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[10][2] %>"><%= data[10][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[10][4] %>"><%= data[10][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[10][6]){ %>
+                        <td><a target="_blank" href="<%= data[10][6] %>"><%= data[10][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[10][8]){ %>
+                        <td><a target="_blank" href="<%= data[10][8] %>"><%= data[10][9] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <td rowspan="3"><%= data[11][0] %></td>
+                    <td rowspan="3"><%= data[11][1] %></td>
+                    <td rowspan="3"><a target="_blank" href="<%= data[11][2] %>"><%= data[11][3] %></a></td>
+                    <td><a target="_blank" href="<%= data[11][4] %>"><%= data[11][5] %></a></td>
+                </tr>
+                <tr>
+                    <% if(data[11][6]){ %>
+                        <td><a target="_blank" href="<%= data[11][6] %>"><%= data[11][7] %></a></td>
+                    <% } %>
+                </tr>
+                <tr>
+                    <% if(data[11][8]){ %>
+                        <td><a target="_blank" href="<%= data[11][8] %>"><%= data[11][9] %></a></td>
+                    <% } %>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <!-- START THE FEATURETTES -->
+
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+        </div><!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <%- include('./model/footer.ejs') %>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

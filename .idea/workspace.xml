@@ -2,35 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f37d36d-84f5-421d-9d91-3462dd0eae05" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/JianFloor.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/ambulance.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/bossoffice.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cafe.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cafechen.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cctv1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cctv2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/cctv3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/elec.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/insurance.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/jizz7122.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/jquery.rwdImageMaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mail.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/mailbox.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/map.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/office.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/presentation.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/presentation2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/rwd.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/security.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/storage.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/storageshadow.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/tv.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wc13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wc2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wccma.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/wcyo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/Flag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/ctf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/mutimedia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/programming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/images/secalgorithms.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/OOP.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/mutimedia.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/secafterschool.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/seccpp.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/secctf.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/secnormal.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/secpygui.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/class.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/class.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/model/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/model/header.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +42,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../izcc-2021-winter-metro" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -67,11 +55,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\文件\GitHub\ckcsc33rd-v.3\views" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.3" />
       <recent name="C:\Users\User\Documents\GitHub\ckcsc33rd-v.3" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2\views" />
       <recent name="E:\文件\GitHub\ckcsc33rd-v.2\views\model" />
-      <recent name="E:\文件\GitHub\ckcsc33rd-v.2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Documents\GitHub\ckcsc33rd-v.3\assets\css\images" />
@@ -115,7 +103,15 @@
       <workItem from="1610610040826" duration="1238000" />
       <workItem from="1611796459042" duration="90000" />
       <workItem from="1611796627411" duration="20000" />
-      <workItem from="1612504846614" duration="146000" />
+      <workItem from="1612504846614" duration="823000" />
+      <workItem from="1613564330666" duration="23000" />
+      <workItem from="1615971528530" duration="1145000" />
+      <workItem from="1616138425694" duration="2299000" />
+      <workItem from="1616307841318" duration="28000" />
+      <workItem from="1616401062017" duration="2366000" />
+      <workItem from="1616487347965" duration="64000" />
+      <workItem from="1616488583263" duration="80000" />
+      <workItem from="1616489823862" duration="281000" />
     </task>
     <servers />
   </component>
